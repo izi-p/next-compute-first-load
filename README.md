@@ -1,5 +1,5 @@
 # next-compute-first-load
-A tiny node.js script to recompute Next.js first load build metric (tested with Next.js 9.3.3)
+A tiny node.js script to recompute Next.js first load build metric, in KB (tested with Next.js 9.3.3)
 
 ## Why
 Next.js first load metric can be seen when building your Next.js app.
@@ -26,4 +26,18 @@ next build
 ```console
 ./next-compute-first-load.js
 cat ./first-load-stats.json
+```
+
+## Output example
+
+Values are in KB
+```json
+{
+  "/Account": 24,
+  "/Homepage": 512,
+  "/Product": 113,
+  "/Search": 234,
+  "/_app": 113,
+  "/_error": 134
+}
 ```
