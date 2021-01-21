@@ -1,5 +1,5 @@
 # next-compute-first-load
-A tiny node.js script to recompute Next.js first load build metric
+A tiny node.js script to recompute Next.js first load build metric (tested with Next.js 9.3.3)
 
 ## Why
 Next.js first load metric can be seen when building your Next.js app.
